@@ -1,0 +1,25 @@
+
+const config = {
+    siteName: "", // what your site is called [RECOMMENDED]
+    accent: 'blue', // one of the colors defined in theme.js, or default in https://chakra-ui.com/docs/styled-system/theme [RECOMMENDED]
+    light: {
+        siteLogo: "/NightDuskLogo.png", // your logo in dark mode [RECOMMENDED]
+        homepageBanner: "https://preview.redd.it/oe901qo4hth61.png?width=3840&format=png&auto=webp&s=eac9b8f429cf2d88a84ed865b6ee5493ff452dcb"
+    },
+    dark: {
+        siteLogo: "/NightDuskLogo.png", // your logo in light mode [RECOMMENDED]
+        homepageBanner: "/NightDuskBanner.png"
+    }
+}
+const creds = {
+    siteKey: "" // site key provided by the creator [REQUIRED]
+}
+
+const vars = {
+    apiRoute: "https://api.nightdusk.tk", // API to connect to NightDusk's servers. [DO NOT MODIFY]
+    mdx: {
+        components: []
+    }
+}
+
+export {config, creds, vars}
