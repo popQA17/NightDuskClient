@@ -6,9 +6,7 @@ import { motion } from "framer-motion"
 import { Badge, Button, Heading, HStack, Icon, IconButton, Image, Input, Spacer, Spinner, Text, useColorModeValue, useToast, VStack, Wrap } from "@chakra-ui/react"
 import { FaClock, FaFilter, FaList, FaPen, FaSearch, FaTag } from "react-icons/fa"
 import { timeDiff } from "../components/timeDIff"
-import { Spa } from "@mui/icons-material"
 import Select from "../components/Select"
-import styleFunctionSx from "@mui/system/styleFunctionSx"
 export default function Search(){
     const [query, setQuery] = useState("")
     const router = useRouter()
